@@ -1,3 +1,22 @@
 {
-  "images": []
+  "images": [
+    {
+      "src": "https://res.cloudinary.com/gwenaelp/image/upload/v1518995509/12-small_e7psd0.jpg",
+      "title": "item 1",
+      "description": "test description"
+    },
+    {
+      "src": "https://res.cloudinary.com/gwenaelp/image/upload/v1518995541/11-small_xjvaut.jpg",
+      "title": "item 2",
+      "description": "test description"
+    },
+    {
+      "src": "https://res.cloudinary.com/gwenaelp/image/upload/v1518995599/10-small_bjp6jn.jpg",
+      "title": "item 3"
+    },
+    {
+      "src": "https://res.cloudinary.com/gwenaelp/image/upload/v1518995634/07-small_fh3ofe.jpg",
+      "title": "item 4"
+    }
+  ]
 }
