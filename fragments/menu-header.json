@@ -1,3 +1,9 @@
 {
-  "images": []
+  "images": [
+    {
+      "src": "https://res.cloudinary.com/gwenaelp/image/upload/v1518995473/menu-bg_ujzdy9.jpg"
+    }
+  ],
+  "title": "Menu",
+  "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed."
 }
