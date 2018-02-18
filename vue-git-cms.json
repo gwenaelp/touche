@@ -48,7 +48,7 @@
           "type": "gallery",
           "max_image_width": 575,
           "max_image_height": 390,
-          "maxImages": 6,
+          "maxImages": 20,
           "fields": [{
             "type": "input",
             "inputType": "text",
