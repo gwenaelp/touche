@@ -1,0 +1,80 @@
+{
+  "pages": [
+    {
+      "title": "Index",
+      "template": "templates/index.html",
+      "destination": "index.html",
+      "type": "html",
+      "default": true,
+      "fragments": [
+        {
+          "id": "headerText",
+          "title": "Header text",
+          "fragment": "fragments/main-headertext.json",
+          "type": "gallery",
+          "fields": [{
+            "type": "input",
+            "inputType": "text",
+            "label": "Title",
+            "model": "title"
+          },{
+            "type": "input",
+            "inputType": "text",
+            "label": "Description",
+            "model": "description",
+          }],
+          "maxImages": 1
+        },{
+          "id": "storyImage",
+          "title": "Story Image and title",
+          "fragment": "fragments/story-image.json",
+          "type": "gallery",
+          "fields": [{
+            "type": "input",
+            "inputType": "text",
+            "label": "Title",
+            "model": "title"
+          }],
+          "maxImages": 1
+        },{
+          "id": "storyText",
+          "title": "Story text",
+          "fragment": "fragments/story-text.html",
+          "type": "html"
+        },{
+          "id": "Menu-header",
+          "title": "Menu header",
+          "fragment": "fragments/menu-header.json",
+          "type": "gallery",
+          "maxImages": 1
+        },{
+          "id": "menu",
+          "title": "Menu",
+          "fragment": "fragments/index-menu.json",
+          "type": "gallery",
+          "max_image_width": 575,
+          "max_image_height": 390,
+          "maxImages": 6,
+          "fields": [{
+            "type": "input",
+            "inputType": "text",
+            "label": "Title",
+            "model": "title"
+          },{
+            "type": "input",
+            "inputType": "text",
+            "label": "Description",
+            "model": "description",
+          }],
+        }
+      ]
+    }
+  ],
+  "options": {
+    "title": "Test site"
+  },
+  "optionsSchema": {
+    "fields": [
+    ]
+  }
+}
