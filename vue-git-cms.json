@@ -63,15 +63,15 @@
         }
       ]
     }, {
-      "title": "Index",
+      "title": "Contact",
       "template": "templates/generic.html",
       "destination": "index.html",
       "type": "html",
       "default": true,
       "fragments": [{
           "id": "mainContent",
-          "title": "Story text",
-          "fragment": "fragments/story-text.html",
+          "title": "Contact information",
+          "fragment": "fragments/contact-info.html",
           "type": "html"
         }
       ]
