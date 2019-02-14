@@ -65,7 +65,7 @@
     }, {
       "title": "Contact",
       "template": "templates/generic.html",
-      "destination": "index.html",
+      "destination": "contact.html",
       "type": "html",
       "default": true,
       "fragments": [{
