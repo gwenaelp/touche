@@ -70,5 +70,8 @@
   "optionsSchema": {
     "fields": [
     ]
+  },
+  "site": {
+    "canAddPages": false
   }
 }
