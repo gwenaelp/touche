@@ -62,6 +62,19 @@
           }]
         }
       ]
+    }, {
+      "title": "Index",
+      "template": "templates/generic.html",
+      "destination": "index.html",
+      "type": "html",
+      "default": true,
+      "fragments": [{
+          "id": "mainContent",
+          "title": "Story text",
+          "fragment": "fragments/story-text.html",
+          "type": "html"
+        }
+      ]
     }
   ],
   "options": {
